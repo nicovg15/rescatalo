@@ -1,8 +1,24 @@
+@font-face {
+  font-family: "GothamLight";
+  src: local("GothamLight"),
+    url(./assets/fonts/GothamLight.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "GothamBold";
+  src: local("GothamLight"),
+    url(./assets/fonts/GothamBold.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Gotham-Black";
+  src: local("GothamLight"),
+    url(./assets/fonts/Gotham-Black.otf) format("truetype");
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: GothamLight;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }

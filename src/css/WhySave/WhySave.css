@@ -1,0 +1,31 @@
+.why-save-main {
+    display: flex;
+    height: 100vh;
+    background-color: #f6f4fe;
+    padding: 0 12%;
+}
+
+.why-save-right {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.why-save-right > img {
+    padding-top: 7.5%;
+    padding-left: 25%;
+    width: 110%;
+    height: 80%;
+}
+
+@media only screen and (max-width: 400px) {
+    .why-save-main {
+        height: 100%;
+        padding: 0 6%;
+    }
+
+    .why-save-right {
+        display: none;
+    }
+}
+  

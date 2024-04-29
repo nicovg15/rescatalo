@@ -1,0 +1,40 @@
+.item-box-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 27%;
+}
+
+.item-box-main > img {
+    width: 115px;
+    height: 115px;
+}
+
+.item-box-main > h4 {
+    color: #7C91FC;
+    font-family: Gotham-Black;
+}
+
+.item-box-main > span {
+    text-align: center;
+    font-size: 15px;
+}
+
+@media only screen and (max-width: 400px) {
+    .item-box-main {
+        width: 90%;
+    }
+
+    .item-box-main:nth-child(2), .item-box-main:nth-child(3) {
+        margin-top: 8%;
+    }
+
+    .item-box-main:nth-child(3) {
+        margin-bottom: 8%;
+    }
+    
+    .item-box-main > img {
+        width: 90px;
+        height: 90px;
+    }
+}

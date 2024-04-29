@@ -1,0 +1,76 @@
+.home-left-wrapper {
+    width: 60%;
+}
+
+.home-left-title-wrapper {
+    margin-top: 25%;
+    margin-bottom: 2%;
+    width: 90%;
+}
+  
+.home-left-title-wrapper > h1 {
+    font-size: 60px;
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    letter-spacing: -1px;
+    font-family: Gotham-Black;
+}
+  
+.home-left-title-wrapper > h1:nth-child(1) {
+    color: rgb(70, 70, 70);
+}
+  
+.home-left-title-wrapper > h1:nth-child(2) {
+    color: #7C91FC;
+}
+
+.home-left-wrapper > p {
+    width: 80%;
+    font-size: 19px;
+    margin-bottom: 4%;
+    color: rgb(70, 70, 70);
+}
+
+.home-left-buttons-wrapper {
+    display: flex;
+}
+
+.home-left-cta {
+    border: none;
+    outline: none;
+    background-color: #7C91FC;
+    color: white;
+    font-weight: bold;
+    padding: 15px 35px;
+    border-radius: 30px;
+    cursor: pointer;
+    font-family: GothamBold;
+}
+
+@media only screen and (max-width: 400px) {
+    .home-left-wrapper {
+        width: 100%;
+    }
+
+    .home-left-title-wrapper {
+        margin-top: 30%;
+        margin-bottom: 0%;
+        width: 100%;
+    }
+
+    .home-left-title-wrapper > h1 {
+        font-size: 35px;
+    }
+
+    .home-left-wrapper > p {
+        width: 100%;
+        font-size: 17px;
+        margin-bottom: 0%;
+    }
+
+    .home-left-cta {
+        margin-top: 5%;
+        padding: 12px 24px;
+    }
+}

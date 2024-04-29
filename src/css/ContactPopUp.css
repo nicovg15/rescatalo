@@ -1,0 +1,88 @@
+.pop-up-main {
+    position: fixed; 
+    background-color: white; 
+    top: 50%; 
+    left: 50%;
+    border: 1px solid rgb(222, 222, 222);
+    border-radius: 2px;
+    padding: 15px 20px;
+    transform: translate(-50%, -50%);
+    width: 400px;
+}
+
+.pop-up-title-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5%;
+}
+
+.pop-up-title-wrapper > h3 {
+    font-size: 19px;
+    font-family: GothamBold;
+    color: rgb(70, 70, 70);
+    margin: 0;
+    padding: 0;
+}
+
+.pop-up-title-wrapper > p {
+    font-family: GothamBold;
+    cursor: pointer;
+}
+
+.pop-up-form {
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+}
+
+.pop-up-form > input {
+    margin-bottom: 4%;
+    height: 30px;
+    border: 1px solid rgb(150, 150, 150);
+    border-radius: 2px;
+    outline: none;
+    padding: 0 7.5px;
+    font-family: GothamLight;
+}
+
+.pop-up-form > textarea {
+    padding: 7.5px;
+    font-family: GothamLight;
+    border: 1px solid rgb(150, 150, 150);
+    border-radius: 2px;
+    outline: none;
+    resize: none;
+    height: 100px;
+}
+
+.pop-up-form > button {
+    outline: none;
+    border: none;
+    background-color: #7C91FC;
+    color: white;
+    font-family: GothamBold;
+    margin-top: 4%;
+    height: 35px;
+    border-radius: 2px;
+    cursor: pointer;
+    margin-bottom: 2%;
+}
+
+@media only screen and (max-width: 400px) {
+    .pop-up-main {
+        width: 60%;
+    }
+
+    .pop-up-title-wrapper > h3 {
+        font-size: 13px;
+    }
+
+    .pop-up-sub-title {
+        font-size: 13px;
+    }
+
+    .pop-up-data {
+        font-size: 13px;
+    }
+}

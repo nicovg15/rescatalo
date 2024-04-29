@@ -1,0 +1,70 @@
+.navbar-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 76%;
+    padding: 0 12%;
+    height: 12vh;
+    background-color: white;
+    position: fixed;
+    animation: slideIn 0.7s ease forwards;
+}
+
+.navbar-main > img {
+    width: 170px;
+    height: 50px;
+    margin-bottom: 1%;
+    cursor: pointer;
+}
+
+.navbar-items-wrapper { 
+    display: flex;
+    justify-content: space-between;
+    width: 45%;
+}
+
+.navbar-items-wrapper > span {
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 14px;
+    transition: 0.2s ease-in;
+}
+
+.navbar-items-wrapper > span:hover {
+    color: rgb(150, 150, 150);
+}
+
+.navbar-cta {
+    border: none;
+    outline: none;
+    background-color: #7C91FC;
+    color: white;
+    font-weight: bold;
+    padding: 12.5px 25px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-family: GothamBold;
+}
+
+
+@media only screen and (max-width: 400px) {
+    .navbar-main {
+        width: 88%;
+        padding: 0 6%;
+    }
+
+    .navbar-main > img {
+        width: 120px;
+        height: 40px;
+        margin-bottom: 0%;
+    }
+
+    .navbar-items-wrapper {
+        display: none;
+    }
+
+    .navbar-cta {
+        margin-top: 2%;
+        padding: 10px 16px;
+    }
+}
