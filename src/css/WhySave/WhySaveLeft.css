@@ -1,5 +1,5 @@
 .why-save-left-main {
-    width: 50%;
+    width: 55%;
 }
 
 .why-save-left-title-wrapper {
@@ -29,6 +29,7 @@
     font-size: 17px;
     margin-bottom: 4%;
     color: rgb(70, 70, 70);
+    font-family: M-Reg;
 }
 
 .why-left-items-wrapper {
@@ -47,9 +48,10 @@
 
 .why-left-items-wrapper > span {
     font-size: 17px;
+    font-family: M-Reg;
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 435px) {
     .why-save-left-main {
         width:  100%;
     }
@@ -65,6 +67,7 @@
 
     .why-save-left-main > p {
         width: 100%;
+        font-family: M-Reg;
     }
     
     .why-left-items-wrapper {
@@ -80,5 +83,6 @@
     
     .why-left-items-wrapper > span {
         font-size: 15px;
+        font-family: M-Reg;
     }
 }

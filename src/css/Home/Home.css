@@ -13,7 +13,14 @@
   padding-top: 10%;
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 1320px) {
+  .home-right-wrapper > img {
+    width: 165%;
+    height: 80%;
+  }
+}
+
+@media only screen and (max-width: 435px) {
   .home-main {
     width: 88%;
     padding: 0 6%;

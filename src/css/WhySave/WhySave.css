@@ -6,7 +6,7 @@
 }
 
 .why-save-right {
-    width: 50%;
+    width: 45%;
     display: flex;
     justify-content: center;
 }
@@ -18,7 +18,7 @@
     height: 80%;
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 435px) {
     .why-save-main {
         height: 100%;
         padding: 0 6%;

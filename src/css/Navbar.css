@@ -28,6 +28,7 @@
     cursor: pointer;
     font-size: 14px;
     transition: 0.2s ease-in;
+    font-family: M-Reg;
 }
 
 .navbar-items-wrapper > span:hover {
@@ -43,11 +44,12 @@
     padding: 12.5px 25px;
     border-radius: 20px;
     cursor: pointer;
-    font-family: GothamBold;
+    /* font-family: GothamBold; */
+    font-family: M-Reg;
 }
 
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 435px) {
     .navbar-main {
         width: 88%;
         padding: 0 6%;
@@ -66,5 +68,6 @@
     .navbar-cta {
         margin-top: 2%;
         padding: 10px 16px;
+        font-family: M-Reg;
     }
 }

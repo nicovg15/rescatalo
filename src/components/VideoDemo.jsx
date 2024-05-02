@@ -12,13 +12,13 @@ function VideoDemo() {
             <div className='video-demo-video-wrapper'>
                 <iframe 
                     src="https://player.vimeo.com/video/940966914?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" 
-                    frameborder="0" 
+                    frameBorder="0" 
                     allow="autoplay; picture-in-picture; clipboard-write" 
                     title="Rescatalo APP"
                     className='video-demo-iframe'
             >
                 </iframe>
-            </div>
+            </div> 
             <script className='cc' src="https://player.vimeo.com/api/player.js"></script>
         </div>
     )

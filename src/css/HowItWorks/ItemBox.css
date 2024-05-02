@@ -18,9 +18,10 @@
 .item-box-main > span {
     text-align: center;
     font-size: 15px;
+    font-family: M-Reg;
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 435px) {
     .item-box-main {
         width: 90%;
     }
@@ -36,5 +37,9 @@
     .item-box-main > img {
         width: 90px;
         height: 90px;
+    }
+
+    .item-box-main > span {
+        font-family: M-Reg;
     }
 }

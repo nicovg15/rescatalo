@@ -23,9 +23,10 @@
     font-size: 15px;
     color: white;
     cursor: pointer;
+    font-family: M-Reg;
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 435px) {
     .footer-main {
         display: flex;
         flex-direction: column;
@@ -51,5 +52,6 @@
     .footer-items-wrapper > span {
         margin-bottom: 10px;
         font-size: 12px;
+        font-family: M-Reg;
     }
 }

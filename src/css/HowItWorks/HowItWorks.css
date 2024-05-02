@@ -31,10 +31,11 @@
 }
 
 .how-it-works-p-wrapper > p {
-    width: 60%;
+    width: 65%;
     text-align: center;
     font-size: 17px;
     color: rgb(70, 70, 70);
+    font-family: M-Reg;
 }
 
 .how-it-works-items-wrapper {
@@ -43,7 +44,7 @@
     margin-top: 7.5%;
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 435px) {
     .how-it-works-main {
         height: 100%;
         padding: 0 6%;
@@ -67,6 +68,7 @@
         text-align: left;
         font-size: 17px;
         color: rgb(70, 70, 70);
+        font-family: M-Reg;
     }
 
     .how-it-works-items-wrapper {

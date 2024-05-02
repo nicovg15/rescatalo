@@ -35,7 +35,7 @@
     height:100%;
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 435px) {
     .video-demo-main {
         height: 100%;
         padding: 0 6%;

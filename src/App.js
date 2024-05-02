@@ -12,8 +12,6 @@
   import ContactPopUp from './components/ContactPopUp';
   import VideoDemo from './components/VideoDemo';
   import FFDivision from './components/FFDivision';
-  import { initializeApp } from "firebase/app";
-  import { getAnalytics } from "firebase/analytics";
 
   function App() {
     const [contactPopUp, setContactPopUp] = useState(false)

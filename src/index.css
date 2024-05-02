@@ -16,6 +16,18 @@
     url(./assets/fonts/Gotham-Black.otf) format("truetype");
 }
 
+@font-face {
+  font-family: "M-Light";
+  src: local("M-Light"),
+    url(./assets/fonts/M-Light.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "M-Reg";
+  src: local("M-Reg"),
+    url(./assets/fonts/M-Reg.ttf) format("truetype");
+}
+
 body {
   margin: 0;
   font-family: GothamLight;
